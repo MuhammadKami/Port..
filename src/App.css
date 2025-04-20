@@ -1,0 +1,270 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #f8f9fa;
+}
+
+/* Navigation Tabs */
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 4px;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.active-tab {
+  border-bottom: 2px solid #ffc107 !important;
+  color: #ffc107 !important;
+}
+
+/* Card and Shadows */
+.card {
+  border: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-card video {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.caption {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+/* Icons (Contact Info) */
+.icon {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #444;
+  padding: 3px;
+}
+
+/* Paragraph Styling */
+.para, .paragraph {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 0.5rem;
+  line-height: 1.8;
+}
+
+.paragraph:hover {
+  color: #ffc107;
+  cursor: pointer;
+}
+
+/* Skills Section */
+.skill-card {
+  width: 100px;
+  height: 100px;
+  background: #2c2c2c;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.skill-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffc10755;
+}
+
+.skill-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.skill-label {
+  color: #fff;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* Social Icons */
+.social-icons i {
+  font-size: 1.4rem;
+  transition: color 0.3s;
+}
+
+.social-icons i:hover {
+  color: #ffc107;
+  cursor: pointer;
+}
+
+/* Services Cards */
+.shadow-sm {
+  background-color: #1c1c1c !important;
+}
+
+/* Text alignment helper */
+.kahani {
+  text-align: left !important;
+}
+
+/* Portfolio Section */
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.caption {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+/* Fix and improve bottom nav */
+
+.nav {
+
+  left: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px 10px 0 0;
+  background-color: #1c1c1c;
+  padding: 12px 0;
+  text-align: center;
+  border-top: 1px solid #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  margin-bottom: 80px;
+}
+
+.nav-item {
+  font-size: 12px;
+  font-weight: 500;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.nav-link {
+  color: #ccc;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}
+
+.nav-link.active-tab {
+  color: #ffc107;
+  font-weight: 600;
+  border-bottom: 2px solid #ffc107;
+}
+
+/* Add to your main app container or main content wrapper */
+.main-content {
+  margin-bottom: 80px; /* Height of navbar + padding */
+}
+
+.social-icons {
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+
+  .social-icons {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .about-section,
+  .kahani,
+  .services,
+  .portfolio {
+    text-align: center;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .card {
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+  }
+
+  .paragraph {
+    text-align: justify;
+    padding: 0 1rem;
+  }
+}
+
+/* General improvements */
+.card {
+  border-radius: 1.5rem;
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+}
+
+.bg-dark {
+  background-color: #121212 !important;
+}
+
+.rounded-4 {
+  border-radius: 1.5rem !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+}
