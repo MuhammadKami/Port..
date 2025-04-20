@@ -83,7 +83,7 @@ function Portfolio() {
             <div className="card bg-dark text-light rounded-4 shadow p-4 kahani">
               {/* Navbar Tabs */}
               <div className="d-flex justify-content-between align-items-center border-bottom pb-2 mb-3">
-                <h2 className="text-warning mb-0">Resume</h2>
+                <h2 className="text-warning mb-0">Portfolio</h2>
               <ul className="nav">
                               {tabLinks.map((tab, idx) => (
                                 <li key={idx} className="nav-item mx-2">
@@ -155,7 +155,7 @@ function Portfolio() {
                 </div>
                 <div className="video-card">
                   <video
-                    src="../public/Camera.mp4"
+                    src="/Camera.mp4"
                     controls
                     autoPlay
                     muted
@@ -164,7 +164,7 @@ function Portfolio() {
                 </div>
                 <div className="video-card">
                   <video
-                    src="c/Amazon.mp4"
+                    src="/Amazon.mp4"
                     controls
                     autoPlay
                     muted
