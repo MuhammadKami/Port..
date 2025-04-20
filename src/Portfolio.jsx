@@ -117,7 +117,7 @@ function Portfolio() {
 
                 <div className="video-card">
                   <video
-                    src="/Github Frontend.mp4"
+                    src="/Frontend.mp4"
                     controls
                     autoPlay
                     muted
