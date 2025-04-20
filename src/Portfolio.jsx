@@ -105,7 +105,7 @@ function Portfolio() {
               <section className="portfolio">
                 <div className="video-card">
                   <video
-                    src="../public/Wanderlust.mp4"
+                    src="/Wanderlust.mp4"
                     autoPlay
                     muted
                     controls
@@ -117,7 +117,7 @@ function Portfolio() {
 
                 <div className="video-card">
                   <video
-                    src="../public/Github Frontend.mp4"
+                    src="/Github Frontend.mp4"
                     controls
                     autoPlay
                     muted
@@ -126,7 +126,7 @@ function Portfolio() {
                 </div>
                 <div className="video-card">
                   <video
-                    src="../public/Zoom.mp4"
+                    src="/Zoom.mp4"
                     controls
                     autoPlay
                     muted
@@ -137,7 +137,7 @@ function Portfolio() {
                 </div>
                 <div className="video-card">
                   <video
-                    src="../public/E-com.mp4"
+                    src="/E-com.mp4"
                     controls
                     autoPlay
                     muted
@@ -146,7 +146,7 @@ function Portfolio() {
                 </div>
                 <div className="video-card">
                   <video
-                    src="../public/Blog.mp4"
+                    src="/Blog.mp4"
                     controls
                     autoPlay
                     muted
@@ -164,7 +164,7 @@ function Portfolio() {
                 </div>
                 <div className="video-card">
                   <video
-                    src="../public/Amazon.mp4"
+                    src="c/Amazon.mp4"
                     controls
                     autoPlay
                     muted
