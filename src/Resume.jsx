@@ -131,7 +131,7 @@ commerce platforms, and real-time features using WebRTC and Socket.io. Skilled i
                 </div>
 
                 <div className="text-end">
-                  <a href="/Final 2.pdf" className="btn btn-warning btn-sm">
+                  <a href="/Resume.pdf" className="btn btn-warning btn-sm">
                     Download CV
                   </a>
                 </div>
