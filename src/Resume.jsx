@@ -128,13 +128,6 @@ commerce platforms, and real-time features using WebRTC and Socket.io. Skilled i
                     communication features using WebRTC and Socket.io.</li>
                     <li>Developed reusable components and optimized state management.</li>
                   </ul>
-                  <h6 className="text-light mt-4">Web Developer | Boss Creative</h6>
-                  <p className="text-white-50 mb-1"> Jan 2025 – Present</p>
-                  <ul className="text-white-50 small">
-                    <li>Developed and maintained full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js)..</li>
-                    <li> Led frontend development with responsive UI/UX design, utilizing Tailwind CSS, Bootstrap, and Figma for pixel-perfect designs.</li>
-                    <li>Deployed and maintained projects using Vercel, Netlify, and Heroku, with a focus on fast load times and minimal downtime.</li>
-                  </ul>
                 </div>
 
                 <div className="text-end">
